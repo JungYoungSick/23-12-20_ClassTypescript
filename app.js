@@ -1,3 +1,4 @@
+"use strict";
 /**
  *
  * @param a number
@@ -14,8 +15,7 @@
  * 코드는 길어졌지만, 가독성은 높아지는 현상이 일어나고 있다.
  * 매우 큰 코드베이스를 다루는 경우, 이러한 가독성은 매우 중요하다.
  */
-
-function add(a: number, b: number): number {
-  return a + b;
+function add(a, b) {
+    return a + b;
 }
 console.log(add(1, 2));
